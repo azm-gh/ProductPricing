@@ -14,7 +14,10 @@ build/
 *.ipr
 out/
 .idea/
-g*
+gradle/
+gradlew
+gradlew.bat
+
 !**/src/main/**/out/
 !**/src/test/**/out/
 
