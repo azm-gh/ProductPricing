@@ -1,0 +1,21 @@
+plugins {
+    id 'groovy'
+}
+
+group = 'org.jakub'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.groovy:groovy-json:4.0.2'
+    implementation 'org.apache.groovy:groovy:4.0.10'
+    testImplementation platform('org.junit:junit-bom:5.9.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
+}
+
+test {
+    useJUnitPlatform()
+}
